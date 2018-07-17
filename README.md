@@ -1,0 +1,2 @@
+# Matrix-determinant-
+The determinant of a matrix can be determined by calculating the determinant of its submatrices until N&lt;=2. Divide the task of calculating the determinant of submatrices by creating multiple threads and joining the results at the end to compute the complete determinant. Your input will be an integer N, where N>2. Create an NxN matrix using random numbers. Then calculate the determinant of the matrix using multithreading. 
